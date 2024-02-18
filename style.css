@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.center-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search{
+    display: flex;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.search input{
+    width: 600px;
+    padding: 12px 15px;
+    border: 0.5px solid #ccc;
+}
+
+.search button img{
+    padding: 8px;
+    background-color: #F0F0F0
+}
+
+.mic img{
+    background-color: #F0EFEF;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 50px; */
+}
+
+.icons i img{
+    margin-right: 12px;
+}
+
+.size-small img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;    
+}
+
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(22, 22, 22);
+    font-size: 1.5rem;
+    background-color: #EEEEEE;
+}
+
+.dark{
+    background: #000;
+    color: white;
+}
+
+  .light{
+    background: rgb(238, 238, 238);
+    color: rgb(67, 67, 67);
+}
+
+  aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+  
+  .side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .side-icons img{
+    width: 28px;
+}
+  
+  .side-icons p{
+    font-size: 0.1rem;
+    margin-top: -5px;
+}
+  .bars{
+    margin-top: 20px;
+}
+
+  .container{
+    display: flex;
+}
+
+.main-container {
+    width: 100%;
+  }
+
+main {
+    min-height: 100vh;
+    /* width: 100vh; */
+    background: rgb(240, 238, 238);
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+
+.card {
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar-content {
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+  }
+  .card h3 {
+    font-size: 1.8rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .channel-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .content-status {
+    display: flex;
+    font-size: 1.3rem;
+    gap: 10px;
+  }
+
+  .d-flex{
+    display: flex;
+    gap: 20px;
+  }
+
+  .avatar img{
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .thumbnail img{
+    width: 320px;
+    border-radius: 2px;
+  }
+
+
